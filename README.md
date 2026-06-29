@@ -1,3 +1,61 @@
+# React Custom Hooks - useFetch Assignment
+
+## Project Overview
+
+This project demonstrates the use of a custom React hook named `useFetch` to simplify API data fetching. The hook manages loading, error, and data states, making it reusable across different components.
+
+## Features
+
+- Custom `useFetch` hook
+- Fetches data from a REST API
+- Loading state handling
+- Error handling
+- Displays API data in a responsive grid layout
+- Simple and clean UI
+
+## Technologies Used
+
+- React.js
+- JavaScript (ES6)
+- CSS
+- Fetch API
+- React Hooks (`useState`, `useEffect`, `useCallback`)
+
+## API Used
+
+https://api.escuelajs.co/api/v1/products
+
+## Project Structure
+
+```
+src/
+│── components/
+│   └── ProductList.js
+│── hooks/
+│   └── useFetch.js
+│── App.js
+│── App.css
+```
+
+## Installation
+
+```bash
+npm install
+npm start
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Author
+
+SHRESTHA PANDEY
+
+live link:- super-longma-56ed60.netlify.app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
